@@ -8,3 +8,7 @@ build:
             scrutinizer.dev: 127.0.0.1
         php: '5.5.9'
         selenium: true
+    tests:
+        override:
+            -
+            command: vendor/bin/phpunit; false

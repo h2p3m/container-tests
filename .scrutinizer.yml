@@ -11,4 +11,4 @@ build:
     tests:
         override:
             -
-            command: vendor/bin/phpunit; false
+                command: vendor/bin/phpunit; false

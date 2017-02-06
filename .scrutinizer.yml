@@ -9,8 +9,7 @@ build:
         php: '5.5.9'
         selenium:
             chrome_driver_version: 2.25
-        gecko:
-            gecko_driver_version: 0.11
+        gecko: 0.11
     tests:
         override:
             -

@@ -9,8 +9,6 @@
     "keywords": ["cache", "memcached"],
     "homepage": "http://github.com/journeygroup/fermi",
     "license": "MIT",
-    "require": {
-    },
     "autoload": {
         "psr-4": {
             "Journey\\Cache\\": "src/",

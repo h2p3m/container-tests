@@ -12,6 +12,4 @@ build:
             gecko_driver_version: 0.11
     tests:
         override:
-            -
-                command: phpunit; false
-                #command: vendor/bin/phpunit; false
+            command: vendor/bin/phpunit; false

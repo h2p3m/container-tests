@@ -13,6 +13,5 @@ build:
     tests:
         override:
             -
-            
                 command: phpunit; false
                 #command: vendor/bin/phpunit; false

@@ -5,12 +5,8 @@ class SeleniumChromeTest extends PHPUnit_Extensions_Selenium2TestCase
 
     protected function setUp()
     {
-        for ($i = 0; $i < 20; $i++)
-        {
-            $this->setBrowser('chrome');
-            $this->setBrowserUrl('http://google.com/');
-            sleep(2);
-        }
+        $this->setBrowser('chrome');
+        $this->setBrowserUrl('http://google.com/');
     }
 
     public function testTitle()
@@ -19,7 +15,8 @@ class SeleniumChromeTest extends PHPUnit_Extensions_Selenium2TestCase
         {
             $this->url('http://www.google.com/');
             $this->assertContains('Google', $this->title());
-            sleep(2);
+            $this->url('http://www.heise.de/');
+            $this->url('http://www.amazon.com/');
         }
     }
 

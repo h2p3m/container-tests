@@ -1,15 +1,15 @@
-inherit: true
-
 build:
-    container: default
     environment:
-        timezone: UTC
-        hosts:
-            scrutinizer.dev: 127.0.0.1
-        php: '5.6.30'
         selenium:
-            chrome_driver_version: 2.25
-            gecko_driver_version: 0.11
+            version: '3.0'
+            chrome_driver_version: '2.27'
+            gecko_driver_version: '0.13'
+    dependencies:
+        before:
+            - composer require phpunit/phpunit
+            - composer require phpunit/phpunit-selenium
     tests:
         override:
-            command: vendor/bin/phpunit; false
+            - vendor/bin/phpunit; false
+checks:
+    php: true

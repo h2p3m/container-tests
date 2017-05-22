@@ -15,5 +15,3 @@ build:
     tests:
         override:
             - vendor/bin/phpunit; false
-checks:
-    php: false

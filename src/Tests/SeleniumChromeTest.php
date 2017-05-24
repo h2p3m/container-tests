@@ -16,6 +16,9 @@ class SeleniumChromeTest extends PHPUnit_Extensions_Selenium2TestCase
             $this->url('http://www.google.com/');
             $this->assertContains('Google', $this->title());
             $this->url('http://www.heise.de/');
+            $this->url('http://www.t3n.de/');
+            $this->url('http://www.tagesschau.de/');
+            $this->url('http://www.spiegel.de/');
         }
     }
 

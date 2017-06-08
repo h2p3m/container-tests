@@ -14,4 +14,4 @@ build:
             - composer require phpunit/phpunit-selenium
     tests:
         override:
-            - vendor/bin/phpunit; false
+            - vendor/bin/phpunit

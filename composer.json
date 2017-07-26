@@ -5,10 +5,10 @@
 #        "phpunit/phpunit": "^4.8",
 #        "phpunit/phpunit-selenium": ">=1.2"
 #    },
-    "authors": [
-        {
-            "name": "Sabine Miehlbradt",
-            "email": "sabine.miehlbradt@scrutinizer-ci.com"
-        }
-    ]
+#    "authors": [
+#        {
+#            "name": "Sabine Miehlbradt",
+#            "email": "sabine.miehlbradt@scrutinizer-ci.com"
+#        }
+#    ]
 }

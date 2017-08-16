@@ -9,9 +9,9 @@ build:
             chrome_driver_version: '2.27'
             gecko_driver_version: '0.13'
     dependencies:
-        before:
-            - composer require phpunit/phpunit
-            - composer require phpunit/phpunit-selenium
+#        before:
+#            - composer require phpunit/phpunit
+#            - composer require phpunit/phpunit-selenium
     tests:
         override:
             - vendor/bin/phpunit

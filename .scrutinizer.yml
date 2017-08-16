@@ -3,7 +3,7 @@ build:
         timezone: UTC
         hosts:
             scrutinizer.dev: 127.0.0.1
-        php: '7.0'
+        php: '7.1'
         selenium:
             version: '3.0'
             chrome_driver_version: '2.27'

@@ -8,10 +8,10 @@ build:
             version: '3.0'
             chrome_driver_version: '2.27'
             gecko_driver_version: '0.13'
-    dependencies:
+#    dependencies:
 #        before:
 #            - composer require phpunit/phpunit
 #            - composer require phpunit/phpunit-selenium
-    tests:
-        override:
-            - vendor/bin/phpunit
+#    tests:
+#        override:
+#            - vendor/bin/phpunit
